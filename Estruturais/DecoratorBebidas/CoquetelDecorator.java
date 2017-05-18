@@ -1,4 +1,4 @@
-public abstract class CoquetelDecorator extends Coquetel {
+public class CoquetelDecorator extends Coquetel {
     Coquetel coquetel;
 
     public CoquetelDecorator(Coquetel umCoquetel){

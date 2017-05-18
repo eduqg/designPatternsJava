@@ -1,4 +1,4 @@
-public abstract class Coquetel {
+public class Coquetel {
     String nome;
     double preco;
 

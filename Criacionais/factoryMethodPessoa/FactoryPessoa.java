@@ -1,3 +1,3 @@
-class product {
-
+public interface FactoryPessoa {
+    Pessoa criaPessoa(String nome);
 }

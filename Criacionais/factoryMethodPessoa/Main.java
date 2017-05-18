@@ -3,6 +3,9 @@ class main {
 
 
     public static void main(String[] args){
-        System.out.println("42");
+        FactoryPessoa factoryPessoa = new CriaHomem();
+        Pessoa jose = factoryPessoa.criaPessoa("José");
+
+        System.out.println(jose.getNome());
     }
 }
